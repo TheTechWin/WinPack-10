@@ -1,0 +1,66 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 0%;
+    height: 25px;
+    width: 70px;
+}
+
+button:hover {
+    background-color: rgb(205, 255, 247);
+    border: 1px solid rgb(67, 0, 250);
+}
+
+.showcase-title {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(7, 165, 165);
+}
+
+.uwp-button {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+}
+
+.uwp-button:hover {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(90, 90, 90);
+}
+
+.uwp-text {
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.uwp-bold {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.uwp-link {
+    text-decoration: solid;
+}
+
+.uwp-input {
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+/* To use 32bit elements just use the elements normally*/
+
+/*
+List : 
+    button class : uwp-button
+    p class : uwp-text
+    bold class : uwp-bold
+    link class : uwp-link
+    input class : uwp-input
+*/
